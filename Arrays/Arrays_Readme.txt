@@ -23,4 +23,16 @@ here it requires to find the sum of all the divisors of a number. to do this
    number.
 
 --------------------------------------------------------------------------------------------
+ Leet median of 2 sorted arrays:
+ create a vector of int and insert both vectors in it. 
+ sort them using sort function --> sort(nums.begin(),nums.end())
+ median can be a decimal value so store it in double variable. 
+ double ans;
+        int n = nums.size();
+        if(n % 2 == 1 ) // odd
+        ans = nums[(n-1)/2];
+        else
+        ans = double(nums[n/2] + nums[(n/2)-1])/2;
+----------------------------------------------------------------------------------------------
+
  

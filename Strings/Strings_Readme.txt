@@ -11,4 +11,11 @@ i.e.
    else
    cout << s[i]  // if any other special char or number.
  ---------------------------------------------------------------------------------------------
- 
+Leet : Longest substring without repeating characters
+See the file: 
+
+-------------------------------------------------------------------------------
+Remember: generally in strings common corner cases are 
+1. string is null
+2. string is single character. 
+---------------------------------------------------------------------------------

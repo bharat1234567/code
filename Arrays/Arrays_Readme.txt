@@ -34,5 +34,29 @@ here it requires to find the sum of all the divisors of a number. to do this
         else
         ans = double(nums[n/2] + nums[(n/2)-1])/2;
 ----------------------------------------------------------------------------------------------
+Leet reverse Integer: 
+only thing to consider is this if (res > INT_MAX/10 || res < INT_MIN/10) overflow condition
+---------------------------------------------------------------------------------------------
+ Leet max water container:
+ in this we have vertical lines of different heights on x axis at difference of 1 on x axis. 
+ ex: (0,a0) (1,a1) .. are points, there are line from these point to x axis.
+we want to find container with max water possible. 
 
+what we need: Area of container should be maximum. 
+ Area  = min(height of both sides height)* horziontal_distance 
  
+   |  
+   |   |  for this maxwater = 2*2 = 4
+   |___|
+   
+   |
+   |   | 
+   |   |    |
+   |___|____|   --> 10, 12, 6 are the heights , 2, 6 are horizontal distance
+                     3 containers are possible --> 10,12 will give 10*2 --> 20
+													12,6 will give  6*6 --> 36
+													10,6 will give 6*(2+6) --> 48 (max)
+													
+	point is horziontal_distance also makes a difference. we need to focus on maximizing the area.see que how to do it. 
+----------------------------------------------------------------------------------------------------------------------------------
+	

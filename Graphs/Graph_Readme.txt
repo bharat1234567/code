@@ -42,7 +42,7 @@ What cpp files will Teach you : (What is COVERED Till Now)
 
 
 
-To Cover
+To Cover:
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 Depth First Search.
 Strongly Connected Components.

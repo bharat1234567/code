@@ -81,7 +81,7 @@ int maxpath(node *head)
 	return ans>=0?ans:0; 
 }
 
-sint maxpathsum(node *head)
+int maxpathsum(node *head)
 {
 	if(head==NULL)
 	return 0;

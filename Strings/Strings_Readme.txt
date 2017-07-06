@@ -19,3 +19,7 @@ Remember: generally in strings common corner cases are
 1. string is null
 2. string is single character. 
 ---------------------------------------------------------------------------------
+Leet Zigzagconversion: create vector of string for seperate rows , ie each string of vector represents string of a specific row
+in the end merge these together rowwise and return the ans. // this takes extra memory though but has much less timecomplexity. 
+-------------------------------------------------------------------------------------
+
